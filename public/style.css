@@ -1,0 +1,139 @@
+:root {
+    --light: #f5f5f5;
+}
+
+body {
+    background-image: url('https://wallpaperaccess.com/full/2101913.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 1.75em;
+    font-family: 'Ubuntu';
+}
+
+.header {
+    background-color: var(--light);
+    padding: .5em;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    padding: 1em;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    width: fit-content;
+}
+
+.box1 {
+    background: lightblue;
+}
+
+.box2 {
+    background: lightsalmon;
+}
+
+.box1, .box2 {
+    margin: 0 5vw;
+}
+
+.main-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.box3 {
+    position: absolute;
+    margin-top: 32.5vh;
+    background-color: aquamarine;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+button {
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect */
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Active effect */
+  button:active {
+    background-color: #1c5a91;
+  }
+  
+  /* Optional: Add a shadow for depth */
+  button {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Optional: Add text shadow for a 3D effect */
+  button {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Optional: Add a transition effect for the text shadow */
+  button:hover {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  input {
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Hover effect */
+  input:hover {
+    border-color: #3498db;
+  }
+  
+  /* Focus effect */
+  input:focus {
+    border-color: #2980b9;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Optional: Add a placeholder color */
+  input::placeholder {
+    color: #aaa;
+  }
+  
+  /* Optional: Add a transition effect for the placeholder color */
+  input:focus::placeholder {
+    color: #888;
+  }
+  
+  /* Optional: Add a transition effect for the text color */
+  input:focus {
+    color: #555;
+  }
